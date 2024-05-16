@@ -5,52 +5,107 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>home page</title>
-  <link rel="stylesheet" href="./css/style.css" </head>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
 
 <body>
+  <!--header file-->
   <div class="nav-bar">
-    <img src="./images/homepageimages/hbg.webp" class=logo />
+    <img src="./images/homepageimages/hbg.webp" />
+    <h1 class="logo-info">INDIAN PREMIER LEAGUE</h1>
+    <img src="./images/homepageimages/hbg.webp" />
   </div>
 
   <div class="nav-menu">
-    <a class="nav-item">Team</a>
-
-
+    <select id="select-team" class="nav-item">
+      <option disabled selected>SELECT TEAM</option>
+      <option value="csk.html" href="./pages/csk.html">Chennai Super Kings</option>
+      <option value="mi.html" href="./pages/csk.html">Mumbai Indians</option>
+      <option value="rcb.html" href="./pages/csk.html">Royal Challengers Bangalore</option>
+      <option value="gt.html" href="./pages/csk.html">Gujarat Titans</option>
+      <option value="lsg.html" href="./pages/csk.html">Lucknow Super Giants</option>
+      <option value="pbks.html" href="./pages/csk.html">Punjab Kings</option>
+      <option value="srh.html" href="./pages/csk.html">Sunrisers Hyderabad</option>
+      <option value="rr.html" href="./pages/csk.html">Rajasthan Royals</option>
+    </select>
   </div>
-
+  <!--container -->
   <div class="container">
-    <div class="card">
+    <div class="card" href="./pages/csk.html">
       <img src="./images/homepageimages/csk.webp" class="card-image">
-      <div class="card-info">Chennai super king</div>
+      <div class="card-info">Chennai Super Kings</div>
     </div>
-    <div class="card">
+    <div class="card" href="./pages/pbks.html">
       <img src="./images/homepageimages/pbks.webp" class="card-image">
-      <div class="card-info">Panjab kings</div>
+      <div class="card-info">Punjab Kings</div>
     </div>
-    <div class="card">
+    <div class="card" href="./pages/rr.html">
       <img src="./images/homepageimages/rr.png" class="card-image">
-      <div class="card-info">Rajasthan Royal</div>
+      <div class="card-info">Rajasthan Royals</div>
     </div>
-    <div class="card">
+    <div class="card" href="./pages/mi.html">
       <img src="./images/homepageimages/mi.jpg" class="card-image">
       <div class="card-info">Mumbai Indians</div>
     </div>
-    <div class="card">
+    <div class="card" href="./pages/gt.html">
       <img src="./images/homepageimages/gt.webp" class="card-image">
-      <div class="card-info">Gujrat titan</div>
+      <div class="card-info">Gujarat Titans</div>
     </div>
-    <div class="card">
+    <div class="card" href="./pages/lsg.html">
       <img src="./images/homepageimages/lsg.webp" class="card-image">
-      <div class="card-info">Lakhnow super giant</div>
+      <div class="card-info">Lucknow Super Giants</div>
     </div>
-    <div class="card">
+    <div class="card" href="./pages/srh.html">
       <img src="./images/homepageimages/srh.webp" class="card-image">
-      <div class="card-info">Sunrise Hyedarabad</div>
+      <div class="card-info">Sunrisers Hyderabad</div>
     </div>
-    <div class="card">
+    <div class="card" href="./pages/rcb.html">
       <img src="./images/homepageimages/rcb.jpg" class="card-image">
-      <div class="card-info">royal Challengers Banglore</div>
+      <div class="card-info">Royal Challengers Bengaluru</div>
     </div>
+
+  </div>
+  <!--footer file-->
+  <div class="footer">
+    
+    <table class="footer-info" >
+      <tr>
+        <th>TEAM</th>
+        <th>CONTACT</th>
+      </tr>
+      <tr>
+        <td>Chennai Super Kings</td>
+        <td>Contact Us</td>
+      </tr>
+      <tr>
+        <td>Mumbai Indians</td>
+        <td>Sponsorship</td>
+      </tr>
+      <tr>
+        <td>Punjab Kings</td>
+        <td>Privacy Policy</td>
+      </tr>
+      <tr>
+        <td>Rajasthan Royals</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gujarat Titans</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Lucknow Super Giants</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Sunrisers Hyderabad</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Royal Challengers Bengaluru</td>
+        <td></td>
+      </tr>
+    </table>
   </div>
 
 </body>
