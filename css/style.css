@@ -6,7 +6,9 @@ body {
 .nav-bar {
     background-color: #004080;
     background-image: url('./../images/homepageimages/hbg.webp');
-    display: flex;
+    display:flex;
+    position: sticky;
+    top:0;
     justify-content: center;
     height: 100px;
     width: 100%;
@@ -27,7 +29,8 @@ body {
     color: white;
     height: 30px;
     padding: 5px 20px;
-    display: sticky;
+    display:block;
+    top:100px;
     align-items: center;
     position: sticky;
     text-align: end;
@@ -160,7 +163,7 @@ body {
     }
 
     .nav-bar {
-        height: 70px;
+        height: 100px;
     }
 
     .card {
@@ -193,6 +196,9 @@ body {
 
     .logo-info {
         font-size: large;
+    }
+    .card-info {
+        margin: 50px;
     }
 }
 
