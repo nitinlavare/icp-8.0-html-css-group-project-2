@@ -29,8 +29,8 @@ body {
     padding: 5px 20px;
     display: sticky;
     align-items: center;
-    position:sticky;
-    text-align:end;
+    position: sticky;
+    text-align: end;
 }
 
 .nav-item {
@@ -40,8 +40,8 @@ body {
     border-radius: 5px;
     padding: 5px 15px;
     font-size: 12px;
-     cursor: pointer;
-   transition: background-color 0.3s ease;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .nav-item:hover {
@@ -51,8 +51,7 @@ body {
 .container {
     background-image: url('./../images/homepageimages/bg.jpg');
     background-size: cover;
-    background-color: #c1d0f0;
-    height: 85vh;
+    height:85vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -67,16 +66,17 @@ body {
     background-color: #004080;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin:20px 10px;
+    margin: 20px 10px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+
 }
-.card:hover{
-    background-color:lightslategray;
+
+.card:hover {
+    background-color: lightslategray;
     cursor: pointer;
-   transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
 .card img {
@@ -95,8 +95,9 @@ body {
     justify-content: center;
 
 }
-.card-info:hover{
-    background-color:lightslategray ;
+
+.card-info:hover {
+    background-color: lightslategray;
     color: white;
     display: ;
 }
@@ -105,13 +106,105 @@ body {
     font-size: 50px;
 
 }
-.footer{
+
+.footer {
     background-image: url('./../images/homepageimages/bg.jpg');
     background-size: cover;
     padding: 50px;
     display: flex;
-    
+
 }
-.footer-info{
+
+.footer-info {
     padding: 5px;
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 615px) {
+    .container {
+        background-image: url('./../images/homepageimages/bg.jpg');
+        background-size: cover;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        height: 220vh;
+    }
+
+    .card {
+        width: 180px;
+        height: 50;
+    }
+
+    .logo-info {
+        font-size: 15px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-logo {
+        width: 100px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 616px) and (max-width: 768px) {
+    .container {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 150vh;
+    }
+
+    .nav-bar {
+        height: 70px;
+    }
+
+    .card {
+        width: 180px;
+        height: 100;
+    }
+
+    .logo-info {
+        font-size: medium;
+    }
+}
+
+/* Tablet Devices */
+
+@media screen and (min-width: 769px) and (max-width: 937px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 150vh;
+    }
+
+    .card {
+        justify-content: space-between;
+        margin-left: 30px;
+        width: 200px;
+        height: 180;
+    }
+
+    .logo-info {
+        font-size: large;
+    }
+}
+
+/* Dekstop device */
+
+@media screen and (min-width:938px) and (max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: 130vh;
+    }
+
 }
