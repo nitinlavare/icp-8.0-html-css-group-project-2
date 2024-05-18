@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.blank {
+    background-color: #4c0080;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+}   
+
 .nav-bar {
     background-color: #004080;
     background-image: url('./../images/homepageimages/hbg.webp');
@@ -5,12 +19,45 @@
     position: sticky;
     top: 0;
     justify-content: center;
-    height: 100px;
+    height: 70px;
     width: 100%;
     padding: 0;
     margin: 0;
     position: sticky;
-    color: azure;
+}
+
+.logo-info {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    background-color: #4c0080;
+    color: white;
+    height: 30px;
+    padding: 2px 20px;
+    display: block;
+    top: 70px;
+    align-items: center;
+    position: sticky;
+    text-align: end;
+}
+
+.nav-item {
+    background-color: #6600cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #b300b3;
 }
 .lsg-logo{ 
   text-align:start;
@@ -108,7 +155,7 @@ footer{
     padding: 10px;
 }
 .links a{
-    display: inline-block;
+    display: none;
     height: 30px;
     width: 30px;
     color: white;
