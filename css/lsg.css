@@ -1,0 +1,15 @@
+.logo{
+    background-color: #4976d0;
+    color: white;
+    display: flex;
+}
+.lsg{
+  background-color: #1f3d7a;   
+  text-align:center;
+  color: white; 
+  display:flex;
+}
+.work{
+    margin: 20px;
+    text-align: start;
+}
