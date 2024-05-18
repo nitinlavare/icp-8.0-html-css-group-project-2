@@ -12,10 +12,9 @@
     position: sticky;
     color: azure;
 }
-.lsg{
-  background-color: #1f3d7a;   
-  text-align:center;
-  color: white; 
+.lsg-logo{ 
+  text-align:start;
+  padding-top: 5px;
   display:flex;
 }
 .work{
