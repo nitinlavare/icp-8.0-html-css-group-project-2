@@ -188,3 +188,140 @@ ul li a:hover{
     color: white;
     padding-left: 3px;
 }
+  /* Small Devices */
+  
+  @media screen and  (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .card{
+        margin-top: 50px;
+    }
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-col h4::before{
+        all: unset;
+    }
+    .logo-info {
+        font-size: 15px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-logo {
+        width: 100px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }  
+    .captain{
+        margin-left:-220px;
+      }
+      .bat-1{
+        margin-right: -200px;
+      }
+    .bat{
+        margin-right: -200px;
+        padding-left: 180px;
+    }
+}
+          /* Normal Devices */
+  
+  @media screen and (min-width: 601px) and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .card{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .nav-bar {
+        height: 70px;
+    }
+
+    .card {
+        width: 180px;
+        height: 100;
+    }
+
+    .logo-info {
+        font-size: medium;
+    }   
+    .captain{
+        margin-left:-100px;
+      }
+      .bat-1{
+        margin-right: -100px;
+      }
+    .bat{
+        margin-right: -100px;
+        padding-left: 100px;
+    }
+}
+
+/*  Tablet Devices */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .card{
+        width: 200px;
+        margin-left: 40px;
+        margin-top: 150px;
+    }
+    .captain{
+        margin-left:-220px;
+      }
+      .bat-1{
+        margin-right: -200px;
+      }
+    .bat{
+        margin-right: -200px;
+        padding-left: 180px;
+    }
+    .logo-info {
+        font-size: large;
+    }
+
+    .card-info {
+        margin: 50px;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width: 1200px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .card{
+        width: 250px;
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+}
+
+/* Dekstop device */
+
+@media screen and  (max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+}
