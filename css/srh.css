@@ -241,6 +241,7 @@ ul li a:hover{
     .bat{
         margin-right: -200px;
         padding-left: 180px;
+        width: 1px;
     }
 }
           /* Normal Devices */
