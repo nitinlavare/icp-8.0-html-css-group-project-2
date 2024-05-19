@@ -46,8 +46,8 @@ body {
 }
 
 .nav-item {
-    background-color: #6600cc;
-    color: #fff;
+    background-color: #99ccff;
+    color: black;
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
@@ -57,7 +57,7 @@ body {
 }
 
 .nav-item:hover {
-    background-color: #b300b3;
+    background-color: #ff9966
 }
 .lsg-logo{ 
   text-align:start;
@@ -71,7 +71,7 @@ body {
     text-align: start;
     margin-top: 10PX;
     margin-bottom: 10PX;
-    background-color: rgb(176, 203, 125);
+    background-color:#b3ffd9
 }
 .container {
     padding: 2px 16px;
@@ -79,7 +79,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: aliceblue;
+    background-color: #ffb3ff;
   }
   .card {
     box-shadow: 0 4px 8px 0 grey;
@@ -91,10 +91,12 @@ body {
     width: 250px;
     margin-top: 20px;
     padding: 20px;
+    box-shadow: #b3ffd9;
   }
   
   .card:hover {
    box-shadow: #ccffff;
+   border: #99ccff;
   }
   .card-img{
     padding-top: 0;
@@ -137,7 +139,7 @@ ul{
     margin-bottom: 30px;
     font-weight: 350;
     font-size: 20px;
-    color: #c115bb;
+    color: #ffcc00;
     text-transform: capitalize;
     margin-left: 45px;
     text-decoration: none;
