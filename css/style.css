@@ -284,18 +284,20 @@ ul li a:hover{
 
 /* Dekstop device */
 
-@media screen and (min-width:941px) and  (max-width: 1215px) {
+@media screen and (min-width:941px) and  (max-width: 1216px) {
     .container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
         height:150vh;
-    }  
+    }
+
 }
-@media screen and (min-width:1216px)and  (max-width: 1500px) {
+@media screen and (min-width:1217px) and  (max-width: 1700px){
     .card{
         height: 300px;
+        width: 280px;
     }
-    
 }
+
