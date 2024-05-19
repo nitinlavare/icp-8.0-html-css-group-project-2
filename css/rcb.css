@@ -64,3 +64,50 @@ body {
 .nav-item:hover {
     background-color: #b300b3;
 }
+.content{
+    margin: 20px;
+    padding-left: 10px;
+    text-align: start;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    background-color: aliceblue;
+}
+.container {
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 grey;
+    transition: 0.3s;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1%;
+    height:300px;
+    width: 250px;
+    margin-top: 20px;
+    padding: 20px;
+   margin-right: 4.5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 black;
+  }
+  .card-img{
+    padding-top: 0;
+    padding-bottom: 0;
+
+  }
+  .captain{
+    margin-left:-240px;
+  }
+  .bat{
+    margin-right: -250px;
+    padding-left: 210px;
+
+}
+  .bat-1{
+    margin-right: -230px;
+  }
