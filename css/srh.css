@@ -106,7 +106,7 @@ body {
   }
   .captain{
     margin-left:-240px;
-    height: 50px;
+    margin-right: 200px;
   }
   .bat-1{
     margin-right: -230px;
@@ -271,7 +271,7 @@ ul li a:hover{
     }   
     .captain{
         margin-left:-100px;
-        padding: 1px;
+       
       }
       .bat-1{
         margin-right: -100px;
@@ -279,7 +279,7 @@ ul li a:hover{
     .bat{
         margin-right: -100px;
         padding-left: 100px;
-        box-shadow: #ffb3ff;
+       
     }
 }
 
@@ -298,6 +298,7 @@ ul li a:hover{
     }
     .captain{
         margin-left:-200px;
+        
       }
       .bat-1{
         margin-right: -180px;
