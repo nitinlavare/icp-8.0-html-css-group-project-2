@@ -278,6 +278,7 @@ ul li a:hover{
     .bat{
         margin-right: -100px;
         padding-left: 100px;
+        box-shadow: #ffb3ff;
     }
 }
 
@@ -324,7 +325,7 @@ ul li a:hover{
         margin-left: 80px;
         margin-top: 200px;
         stroke-width: 10px;
-        scrollbar-color: #ccccff;
+       scrollbar-color : #ccccff;
     }
 }
 
