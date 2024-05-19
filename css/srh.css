@@ -97,6 +97,7 @@ body {
   .card:hover {
    box-shadow: #ccffff;
    border: #99ccff;
+   stroke: #bdb6b6;
   }
   .card-img{
     padding-top: 0;
