@@ -284,7 +284,7 @@ ul li a:hover{
 
 /* Dekstop device */
 
-@media screen and (min-width:941px) and  (max-width: 1200px) {
+@media screen and (min-width:941px) and  (max-width: 1231px) {
     .container {
         display: flex;
         flex-direction: row;
@@ -292,7 +292,11 @@ ul li a:hover{
         flex-wrap: wrap;
         height:150vh;
     }
+
+}
+@media screen and (min-width:1232px) and  (max-width: 1700px){
     .card{
         height: 300px;
-    }  
+        width: 280px;
+    }
 }
