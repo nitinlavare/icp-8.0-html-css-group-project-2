@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #b3ffd9;
 }
 
 .blank {
@@ -59,7 +60,7 @@ body {
 .nav-item:hover {
     background-color: #ff9966
 }
-.lsg-logo{ 
+.srh-logo{ 
   text-align:start;
   padding-top: 5px;
   display:flex;
@@ -96,8 +97,8 @@ body {
   
   .card:hover {
    box-shadow: #ccffff;
-   border: #99ccff;
-   stroke: #bdb6b6;
+   border: #0e67c1;
+   
   }
   .card-img{
     padding-top: 0;
@@ -264,6 +265,7 @@ ul li a:hover{
     .card {
         width: 180px;
         height: 100;
+    
     }
 
     .logo-info {
