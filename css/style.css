@@ -59,7 +59,22 @@ body {
 .nav-item:hover {
     background-color: #b300b3;
 }
+.highlights{
+   background-color:#88ff4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display:inline-block;
+}
 
+.highlights:hover{
+    background-color:#47d147;
+    
+}
 .container {
     background-image: url('./../images/homepageimages/bg.jpg');
     background-size: cover;
