@@ -225,7 +225,18 @@ ul img {
 
 
 /* Mobile Devices */
+@media screen and(min-width:455px)and(max-width:648) {
+    .vd {
 
+        height: 350vh;
+    }
+
+    .vid {
+
+        height: 150vh;
+
+    } 
+}
 @media screen and (max-width: 649px) {
     .container {
 
@@ -271,7 +282,7 @@ ul img {
 
     .vid {
 
-        height: 500vh;
+        height: 180vh;
 
     }
 }
@@ -357,7 +368,7 @@ ul img {
     }
 
     .vid {
-        height: 160vh;
+        height: 180vh;
     }
 }
 
@@ -403,7 +414,7 @@ ul img {
     }
 
     .vid {
-        height: 140vh;
+        height: 160vh;
     }
 }
 
