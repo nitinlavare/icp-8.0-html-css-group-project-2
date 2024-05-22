@@ -61,6 +61,28 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+table, td, th {  
+        border: 1px solid #ddd;
+        text-align: center;
+        align-items: center;
+        background-color: #8cb3d9;
+      }
+      
+      table {
+        border-collapse: collapse;
+        width: 50%;
+      }
+      
+       th {
+        padding: 15px;
+      }
+.table-content{
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+}    
 
 .nav-item:hover {
     background-color: #b300b3;
