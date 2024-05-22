@@ -33,18 +33,24 @@ body {
     align-items: center;
     text-shadow: 2px 2px 5px red;
 }
-
 .nav-menu {
     background-color: #4c0080;
     color: white;
     height: 30px;
-    padding: 2px 20px;
-    display: block;
-    top: 70px;
+    padding: 5px 20px;
+    display: flex;
+    margin-top: -10px;
+    justify-content: end;
     align-items: center;
     position: sticky;
-    text-align: end;
+    top: 70px;
+    text-align: right;
 }
+.home {
+    padding: 2px 20px;
+    text-decoration: underline;
+}
+
 .nav-logo{
     height: 70px;
     display:flex;
@@ -61,6 +67,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 table, td, th {  
         border: 1px solid #ddd;
         text-align: center;
