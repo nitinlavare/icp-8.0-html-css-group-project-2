@@ -66,7 +66,9 @@ body{
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-
+.logo-info{
+    font-size: 20px;
+}
 
 h2{
     background-color:#47d147 ;
@@ -183,7 +185,8 @@ ul li a:hover{
         font-size: 30px;  
     }
     .video{
-        width:480px;
+        width:350px;
+        height: 250px;
        }
        .footer-col{
         width: 50%;
@@ -197,12 +200,12 @@ ul li a:hover{
 }
 @media screen and (min-width: 616px) and (max-width: 768px) {
     .video{
-        width:600px;
+        width:580px;
        }
 }
 @media screen and (min-width: 769px) and (max-width: 935px) {
     .video{
-        width:800px;
+        width:750px;
        }
 }
 @media screen and (min-width:936px) and  (max-width: 1055px){

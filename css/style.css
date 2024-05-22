@@ -10,7 +10,7 @@ body {
     display: flex;
     position: sticky;
     top: 0;
-}   
+}
 
 .nav-bar {
     background-color: #004080;
@@ -59,8 +59,9 @@ body {
 .nav-item:hover {
     background-color: #b300b3;
 }
-.highlights{
-   background-color:#88ff4d;
+
+.highlights {
+    background-color: #88ff4d;
     color: white;
     border: none;
     border-radius: 5px;
@@ -68,22 +69,25 @@ body {
     font-size: 12px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    display:inline-block;
+    display: inline-flex;
+    margin-right: 20px;
+   
 }
 
-.highlights:hover{
-    background-color:#47d147;
-    
+.highlights:hover {
+    background-color: #47d147;
+
 }
+
 .container {
     background-image: url('./../images/homepageimages/bg.jpg');
     background-size: cover;
     height: 127vh;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -98,7 +102,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-decoration: none;
-    box-shadow:5px 0 20px #33331a;
+    box-shadow: 5px 0 20px #33331a;
 }
 
 .card:hover {
@@ -121,41 +125,41 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card-info:hover {
     background-color: lightslategray;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: sans-serif;
     line-height: 1.2;
 }
 
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
-    margin-top:auto;
+    margin-top: auto;
     background-color: #2d2e33;
     padding: 40px 10%;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.footer-col{
-    padding-top: 20px ;
+.footer-col {
+    padding-top: 20px;
     margin-right: 30px;
     width: 25%;
 }
 
-.footer-col h4{
-    position:static;
+.footer-col h4 {
+    position: static;
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 22px;
@@ -163,11 +167,11 @@ ul{
     text-transform: capitalize;
 }
 
-ul li:not(:last-child){
+ul li:not(:last-child) {
     margin-bottom: 8px;
 }
 
-ul li a{
+ul li a {
     display: block;
     font-size: 19px;
     text-transform: capitalize;
@@ -176,12 +180,12 @@ ul li a{
     transition: 0.4s;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: white;
     padding-left: 2px;
 }
 
-.links a{
+.links a {
     display: inline-block;
     height: 44px;
     width: 44px;
@@ -194,43 +198,27 @@ ul li a:hover{
     transition: 0.4s;
 }
 
-.links a:hover{
+.links a:hover {
     color: #4d4f55;
     background-color: white;
 }
 
 
 /* Mobile Devices */
-@media(max-width: 740px){
-    .footer-col{
-        width: 50%;
-        margin-bottom: 30px;
-        text-align: center;
-    }
 
-    .footer-col h4::before{
-        all: unset;
-    }
-}
-
-@media(max-width: 555px){
-    .footer-col{
-        width: 100%;
-    }
-}
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 649px) {
     .container {
         background-image: url('./../images/homepageimages/bg.jpg');
         background-size: cover;
         flex-direction: row;
         display: flex;
         align-items: center;
-        height: 220vh;
+        height: 350vh;
     }
 
     .card {
-        width: 200px;
-        height:280px;
+        width: 350px;
+        height: 270px;
     }
 
     .logo-info {
@@ -245,16 +233,16 @@ ul li a:hover{
         height: 80px;
         display: flex;
         align-items: center;
-    }  
+    }
 }
 
-@media screen and (min-width: 616px) and (max-width: 768px) {
+@media screen and (min-width: 650px) and (max-width: 768px) {
     .container {
         flex-direction: row;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        height: 150vh;
+        height: 160vh;
     }
 
     .nav-bar {
@@ -262,13 +250,13 @@ ul li a:hover{
     }
 
     .card {
-        width: 180px;
+        width: 200px;
         height: 100;
     }
 
     .logo-info {
         font-size: medium;
-    }   
+    }
 }
 
 /* Tablet Devices */
@@ -299,28 +287,31 @@ ul li a:hover{
 
 /* Dekstop device */
 
-@media screen and (min-width:941px) and  (max-width: 1216px) {
+@media screen and (min-width:941px) and (max-width: 1216px) {
     .container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        height:150vh;
+        height: 150vh;
     }
 
 }
-@media screen and (min-width:1217px) and  (max-width: 1500px){
-    .card{
-        height: 284px;   
+
+@media screen and (min-width:1217px) and (max-width: 1500px) {
+    .card {
+        height: 284px;
     }
 }
-@media screen and (min-width:1501px) and  (max-width: 2000px){
-    .card{
+
+@media screen and (min-width:1501px) and (max-width: 2000px) {
+    .card {
         height: 350px;
         width: 300px;
     }
+
     .card-image {
         height: 200px;
     }
-    
+
 }
