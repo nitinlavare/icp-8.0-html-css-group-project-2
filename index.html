@@ -10,101 +10,105 @@
 
 <body>
   <!--header file start-->
-  <div class="blank"><h1></h1></div>
+  <div class="blank">
+    <h1></h1>
+  </div>
   <div class="nav-bar">
     <img src="./images/homepageimages/hbg.webp" class="nav-logo" />
     <h1 class="logo-info">INDIAN PREMIER LEAGUE</h1>
     <img src="./images/homepageimages/hbg.webp" class="nav-logo" />
   </div>
-
-  <div class="nav-menu">
-    <p class="highlights"><a href="./pages/hl.html"> IPL-2024 HIGHLIGHTS</a></p>
-    <select id="select-team" class="nav-item" onchange="window.location.href = this.value;">
-      <option disabled selected>SELECT TEAM</option>
-      <option value="index.html">Home Page</option>
-      <option value="./pages/csk.html">Chennai Super Kings</a></option>
-      <option value="./pages/mi.html">Mumbai Indians</option>
-      <option value="./pages/rcb.html">Royal Challengers Bangalore</option>
-      <option value="./pages/gt.html">Gujarat Titans</option>
-      <option value="./pages/lsg.html">Lucknow Super Giants</option>
-      <option value="./pages/pbks.html">Punjab Kings</option>
-      <option value="./pages/srh.html">Sunrisers Hyderabad</option>
-      <option value="./pages/rr.html">Rajasthan Royals</option>
-    </select>
-   
-  </div>
+    <ul class="nav-menu">
+      <li class="highlights"><a href="./pages/hl.html">IPL-2024 HIGHLIGHTS</a></li>
+      <li class="home"><a href="index.html">HOME</a></li>
+    </ul>
+ 
   <!--header file finish-->
   <!--container start-->
-  <div class="container">
-    <a class="card" href="./pages/csk.html" >
-      <img src="./images/homepageimages/csk.webp" class="card-image">
-      <div class="card-info">Chennai Super Kings</div>
-    </a>
-    <a class="card" href="./pages/pbks.html" >
-      <img src="./images/homepageimages/pbks.webp" class="card-image">
-      <div class="card-info">Punjab Kings</div>
-    </a>
-    <a class="card"href="./pages/rr.html" >
-      <img src="./images/homepageimages/rr.png" class="card-image">
-      <div class="card-info">Rajasthan Royals</div>
-    </a>
-    <a class="card" href="./pages/mi.html">
-      <img src="./images/homepageimages/mi.jpg" class="card-image">
-      <div class="card-info">Mumbai Indians</div>
-    </a>
-    <a class="card"href="./pages/gt.html">
-      <img src="./images/homepageimages/gt.webp" class="card-image">
-      <div class="card-info">Gujarat Titans</div>
-    </a>
-    <a class="card"href="./pages/lsg.html" >
-      <img src="./images/homepageimages/lsg.webp" class="card-image">
-      <div class="card-info">Lucknow Super Giants</div>
-    </a>
-    <a class="card" href="./pages/srh.html">
-      <img src="./images/homepageimages/srh.webp" class="card-image">
-      <div class="card-info">Sunrisers Hyderabad</div>
-    </a>
-    <a class="card"href="./pages/rcb.html">
-      <img src="./images/homepageimages/rcb.jpg" class="card-image">
-      <div class="card-info">Royal Challengers Bengaluru</div>
-    </a>
 
+  <div class="vd">
+    <video class="vid" autoplay loop muted>
+      <source src="./images/homepageimages/bvd.mp4" type="video/mp4" />
+    </video>
+
+    <div class="container vd-content">
+      <a class="card" href="./pages/csk.html">
+        <img src="./images/homepageimages/csk.webp" class="card-image">
+        <div class="card-info">Chennai Super Kings</div>
+      </a>
+      <a class="card" href="./pages/pbks.html">
+        <img src="./images/homepageimages/pbks.webp" class="card-image">
+        <div class="card-info">Punjab Kings</div>
+      </a>
+      <a class="card" href="./pages/rr.html">
+        <img src="./images/homepageimages/rr.png" class="card-image">
+        <div class="card-info">Rajasthan Royals</div>
+      </a>
+      <a class="card" href="./pages/mi.html">
+        <img src="./images/homepageimages/mi.jpg" class="card-image">
+        <div class="card-info">Mumbai Indians</div>
+      </a>
+      <a class="card" href="./pages/gt.html">
+        <img src="./images/homepageimages/gt.webp" class="card-image">
+        <div class="card-info">Gujarat Titans</div>
+      </a>
+      <a class="card" href="./pages/lsg.html">
+        <img src="./images/homepageimages/lsg.webp" class="card-image">
+        <div class="card-info">Lucknow Super Giants</div>
+      </a>
+      <a class="card" href="./pages/srh.html">
+        <img src="./images/homepageimages/srh.webp" class="card-image">
+        <div class="card-info">Sunrisers Hyderabad</div>
+      </a>
+      <a class="card" href="./pages/rcb.html">
+        <img src="./images/homepageimages/rcb.jpg" class="card-image">
+        <div class="card-info">Royal Challengers Bengaluru</div>
+      </a>
+
+    </div>
   </div>
   <!--container end-->
   <!--footer file start-->
   <footer>
     <div class="footer-col">
-        <h4>Team</h4>
-        <ul>
-            <li><a href="./pages/csk.html">Chennai Super Kings</a></li>
-            <li><a href="./pages/mi.html">Mumbai Indians</a></li>
-            <li><a href="./pages/rcb.html">Royal Challengers Bangalore</a></li>
-            <li><a href="./pages/gt.html">Gujarat Titans</a></li>
-            <li><a href="./pages/pbks.html">Punjab Kings</a></li>
-            <li><a href="./pages/srh.html">Sunrisers Hyderabad</a></li>
-            <li><a href="./pages/rr.html">Rajasthan Royals</a></li>
-            <li><a href="./pages/lsg.html">Lucknow Super Giants</a></li>
-        </ul>
+      <h4>Team</h4>
+      <ul>
+        <li><a href="./pages/csk.html">Chennai Super Kings</a></li>
+        <li><a href="./pages/mi.html">Mumbai Indians</a></li>
+        <li><a href="./pages/rcb.html">Royal Challengers Bangalore</a></li>
+        <li><a href="./pages/gt.html">Gujarat Titans</a></li>
+        <li><a href="./pages/pbks.html">Punjab Kings</a></li>
+        <li><a href="./pages/srh.html">Sunrisers Hyderabad</a></li>
+        <li><a href="./pages/rr.html">Rajasthan Royals</a></li>
+        <li><a href="./pages/lsg.html">Lucknow Super Giants</a></li>
+      </ul>
     </div>
     <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-            <li><a href="#">contact us</a></li>
-            <li><a href="#">Sponsorship</a></li>
-            <li><a href="#">Privacy policy</a></li>
-        </ul>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="#">contact us</a></li>
+        <li><a href="#">Sponsorship</a></li>
+        <li><a href="#">Privacy policy</a></li>
+      </ul>
     </div>
     <div class="footer-col">
-        <h4>follow us</h4>
-        <div class="links">
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
+      <h4>Official Brodcaster</h4>
+      <ul>
+        <img src="./images/homepageimages/starsports.avif" />
+        <li><a href="#">STAR SPORTS</a></li>
+      </ul>
     </div>
-</footer>
- <!--footer file end-->
+    <div class="footer-col">
+      <h4>follow us</h4>
+      <div class="links">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!--footer file end-->
 </body>
 
 </html>
