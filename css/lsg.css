@@ -31,19 +31,26 @@ body {
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    text-shadow: 2px 2px 5px red;
 }
-
 .nav-menu {
     background-color: #4c0080;
     color: white;
     height: 30px;
-    padding: 2px 20px;
-    display: block;
-    top: 70px;
+    padding: 5px 20px;
+    display: flex;
+    margin-top: -10px;
+    justify-content: end;
     align-items: center;
     position: sticky;
-    text-align: end;
+    top: 70px;
+    text-align: right;
 }
+.home {
+    padding: 2px 20px;
+    text-decoration: underline;
+}
+
 .nav-logo{
     height: 70px;
     display:flex;
@@ -61,6 +68,29 @@ body {
     transition: background-color 0.3s ease;
 }
 
+table, td, th {  
+        border: 1px solid #ddd;
+        text-align: center;
+        align-items: center;
+        background-color: #8cb3d9;
+      }
+      
+      table {
+        border-collapse: collapse;
+        width: 50%;
+      }
+      
+       th {
+        padding: 15px;
+      }
+.table-content{
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+}    
+
 .nav-item:hover {
     background-color: #b300b3;
 }
@@ -77,7 +107,8 @@ body {
     margin-top: 50PX;
     margin-bottom: 50PX;
     text-align: center;
-    color:slateblue;
+    color:#3366cc;
+    text-shadow: 2px 2px 5px #8cb3d9;
 }
 .container {
     padding: 2px 16px;
@@ -97,6 +128,8 @@ body {
     width: 250px;
     margin-top: 20px;
     padding: 20px;
+    align-content: space-evenly;
+    text-shadow: 2px 2px 5px white;
   }
   
   .card:hover {
@@ -118,26 +151,27 @@ body {
     padding-left: 210px;
 }
 
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
-    margin-top:auto;
+    margin-top: auto;
     background-color: #2d2e33;
     padding: 40px 10%;
+
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.footer-col{
-    padding-top: 20px ;
-    margin-right: 30px;
-    width: 25%;
+.footer-col {
+    padding-top: 10px;
+    margin-right: 10px;
+    width: 24%;
 }
 
-.footer-col h4{
-    position:static;
+.footer-col h4 {
+    position: static;
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 22px;
@@ -145,11 +179,11 @@ ul{
     text-transform: capitalize;
 }
 
-ul li:not(:last-child){
+ul li:not(:last-child) {
     margin-bottom: 8px;
 }
 
-ul li a{
+ul li a {
     display: block;
     font-size: 19px;
     text-transform: capitalize;
@@ -158,14 +192,131 @@ ul li a{
     transition: 0.4s;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: white;
     padding-left: 2px;
 }
 
+.links a {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links a:hover {
+    color: #4d4f55;
+    background-color: white;
+}
+
+ul img {
+    height: 70px;
+    background-color: #4d4f55;
+    color: white;
+    border-radius: 50%;
+
+}
+.list{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .product {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.product h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.product p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+.img-info{
+    margin-left: 580px;
+    width: 20%;
+}
+
+button:hover {
+    background-color: #555;
+}
+@media screen and  (min-width: 267px) and (max-width:299px) {
+    .container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .lsg-logo{
+        display: none;
+    }
+    .card{
+        margin-top: 50px;
+        height: fit-content;
+        width: fit-content;
+    }
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-col h4::before{
+        all: unset;
+    }
+    .logo-info {
+        font-size:small;
+    }
+    .nav-logo {
+        width: 100px;
+        height: 80px;
+        display: flex;
+        font-size: small;
+        align-items: center;
+    }  
+    .captain{
+        margin-left:-180px;
+      }
+      .bat-1{
+        margin-right: -180px;
+      }
+    .bat{
+        margin-right: -180px;
+        padding-left: 160px;
+    }
+}
+
 /* Small Devices */
   
-@media screen and  (min-width: 100px) and (max-width:615px) {
+@media screen and  (min-width: 300px) and (max-width:615px) {
     .container {
         flex-direction: column;
         display: flex;
@@ -176,6 +327,8 @@ ul li a:hover{
     }
     .card{
         margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .footer-col{
         width: 50%;
@@ -217,7 +370,9 @@ ul li a:hover{
     .card{
         margin-top: 50px;
         margin-left: 5px;
-        height: fit-content;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .nav-bar {
         height: 70px;
@@ -226,6 +381,7 @@ ul li a:hover{
     .card {
         width: 180px;
         height: 100;
+        justify-content: space-between;
     }
 
     .logo-info {
@@ -253,9 +409,10 @@ ul li a:hover{
     }
     .card{
         width: 250px;
-        height: fit-content;
-        margin-left: 40px;
-        margin-top: 150px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
     }
     .captain{
         margin-left:-200px;
@@ -284,8 +441,9 @@ ul li a:hover{
     }
     .card{
         width: 250px;
-        margin-left: 80px;
-        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
     }
     .logo-info {
         font-size: large;

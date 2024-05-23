@@ -16,7 +16,7 @@
 
 Link :https://iplmiracle611.netlify.app
 
-![home page](https://iplmiracle611.netlify.app/)
+![home page](images/homepageimages/homepgimg.png)
 ### CONTRIBUTORS : 
 <a href="https://github.com/karishmawadaskar/icp-8.0-html-css-group-project-2/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=karishmawadaskar/icp-8.0-html-css-group-project-2" />
