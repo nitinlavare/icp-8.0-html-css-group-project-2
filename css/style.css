@@ -49,15 +49,14 @@ body {
 
 .highlights {
     color: #53dd40;
-    padding-right: 50px;
-    padding-bottom: 0;
+    padding-right: 2%;
     align-items: center;
     justify-content: center;
-    text-decoration: overline underline;
+    text-decoration: underline;
 }
 
 .home {
-    padding: 2px 20px;
+    padding: 2px 30px;
     text-decoration: underline;
 }
 
@@ -235,8 +234,9 @@ ul img {
 
         height: 150vh;
 
-    } 
+    }
 }
+
 @media screen and (max-width: 649px) {
     .container {
 
