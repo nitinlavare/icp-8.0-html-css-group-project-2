@@ -187,7 +187,8 @@ ul li a:hover{
         all: unset;
     }
     .logo-info {
-        font-size:medium;
+        font-size:5px;
+        display: flex;
     }
     .nav-logo {
         width: 100px;
@@ -229,7 +230,7 @@ ul li a:hover{
     }
 
     .logo-info {
-        font-size:medium;
+        font-size:10px;
     }    
     .captain{
         margin-left:-100px;
@@ -253,7 +254,6 @@ ul li a:hover{
     }
     .card{
         width: 250px;
-        height: fit-content;
         margin-left: 40px;
         margin-top: 150px;
     }
