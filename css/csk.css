@@ -396,7 +396,18 @@ ul img {
 }
 
 /* Dekstop device */
+@media screen and  (max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .logo-info {
+        font-size: large;
+    }
 
+}
 
 
 
