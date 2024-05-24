@@ -147,7 +147,8 @@ ul {
 
 .links a{
     display: inline-block;
-    flex-direction: ;
+    flex-direction:row;
+    display: flex;
     height: 30px;
     width: 30px;
     color: white;
