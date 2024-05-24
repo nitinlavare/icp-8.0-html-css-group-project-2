@@ -289,6 +289,14 @@ button:hover {
     background-color: #555;
 }
 
+.container1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+}
+
+
+
 @media screen and (min-width: 267px) and (max-width:299px) {
     .container {
         flex-direction: column;
