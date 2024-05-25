@@ -64,6 +64,10 @@ body {
 .nav-item:hover {
     background-color: #b300b3;
 }
+.home {
+    padding: 2px 20px;
+    text-decoration: underline;
+}
 table, td, th {  
     border: 1px solid #ddd;
     text-align: center;
