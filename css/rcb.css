@@ -1,10 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #efeff5;
 }
-
-.blank {
+.rcb-logo{ 
+    text-align:start;
+    padding-top: 5px;
+    display:flex;
+    font-size: larger;
+  }
+  .blank {
     background-color: #4c0080;
     height: 30px;
     width: 100%;
@@ -30,32 +34,20 @@ body {
 .logo-info {
     color: white;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
     align-items: center;
-    text-shadow: 2px 2px 5px red;
 }
+
 .nav-menu {
     background-color: #4c0080;
     color: white;
     height: 30px;
-    padding: 5px 20px;
-    display: flex;
-    margin-top: -10px;
-    justify-content: end;
+    padding: 2px 20px;
+    display: block;
+    top: 70px;
     align-items: center;
     position: sticky;
-    top: 70px;
-    text-align: right;
-}
-.home {
-    padding: 2px 20px;
-    text-decoration: underline;
-}
-
-.nav-logo{
-    height: 70px;
-    display:flex;
-    justify-content: start;
+    text-align: end;
 }
 
 .nav-item {
@@ -69,54 +61,48 @@ body {
     transition: background-color 0.3s ease;
 }
 
-table, td, th {  
-        border: 1px solid #ddd;
-        text-align: center;
-        align-items: center;
-        background-color: #8cb3d9;
-      }
-      
-      table {
-        border-collapse: collapse;
-        width: 50%;
-      }
-      
-       th {
-        padding: 15px;
-      }
-.table-content{
-    font-size: larger;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: auto;
-}    
-
 .nav-item:hover {
     background-color: #b300b3;
 }
-.lsg-logo{ 
-  text-align:start;
-  padding-top: 3px;
-  display:flex;
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+    align-items: center;
+    background-color: #000066;
+    color:antiquewhite;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+   th {
+    padding: 15px;
+  }
+  .table-content{
   font-size: larger;
-}
-.work{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom:40px;
+  }
+#content{
     margin: 20px;
     padding-left: 10px;
-    text-align: start;
-    margin-top: 50PX;
-    margin-bottom: 50PX;
     text-align: center;
-    color:#3366cc;
-    text-shadow: 2px 2px 5px #8cb3d9;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    background-color: aliceblue;
+    color:#000066;
+    text-shadow: 2px 2px 5px #303dec;
 }
 .container {
     padding: 2px 16px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    background-color: aliceblue;
   }
   .card {
     box-shadow: 0 4px 8px 0 grey;
@@ -125,12 +111,10 @@ table, td, th {
     border: 1px solid black;
     border-radius: 1%;
     height:300px;
-    background-color: #ffe6e6;
     width: 250px;
     margin-top: 20px;
     padding: 20px;
-    align-content: space-evenly;
-    text-shadow: 2px 2px 5px white;
+   margin-right: 4.5px;
   }
   
   .card:hover {
@@ -144,66 +128,55 @@ table, td, th {
   .captain{
     margin-left:-240px;
   }
+  .bat{
+    margin-right: -250px;
+    padding-left: 210px;
+
+}
   .bat-1{
     margin-right: -230px;
   }
-.bat{
+  .allrounder{
     margin-right: -250px;
     padding-left: 210px;
 }
-.container1 {
-    padding: 2px 16px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  .allrounder-1{
+    margin-right: -230px;
   }
-
-  .table-content1{
-    font-size: larger;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: auto;
+  .ball{
+    margin-right: -250px;
+    padding-left: 210px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-    .text {
-      font-family:"Noto Sans";
-    }
-
-footer {
+  .ball-1{
+    margin-right: -230px;
+  }
+  footer{
     display: flex;
     flex-wrap: wrap;
-    margin-top: auto;
+    margin-top:auto;
     background-color: #2d2e33;
-    padding: 40px 5%;
-
+    padding: 40px 10%;
+    text-decoration: none;
 }
-.footer-col {
-    padding-top: 10px;
-    margin-right: 30px;
-    width: 50%;
-
-
-}
-
-ul {
+ul{
     list-style: none;
 }
 
-.footer-col {
-    padding-top: 10px;
-    margin-right: 10px;
-    width: 24%;
+.footer-col{
+    padding-top: 20px ;
+    margin-right: 30px;
+    width: 26%;
+    text-decoration: none;
 }
-
-.footer-col h4 {
-    position: static;
+.footer-col h4{
+    position:static;
     margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: 350;
+    font-size: 20px;
     color: #f1bc0d;
     text-transform: capitalize;
+    margin-left: 40px;
+    text-decoration: none;
 }
 
 ul li:not(:last-child) {
@@ -223,167 +196,209 @@ ul li a:hover {
     color: white;
     padding-left: 2px;
 }
-
-.links a {
-    display: inline-block;
-    height: 44px;
-    width: 44px;
-    color: white;
-    background-color: rgba(40, 130, 214, 0.8);
+#links {
+    display:inline-block;
+    height: 47px;
+    width: 47px;
+    background-color: white;
     margin: 0 8px 8px 0;
     text-align: center;
-    line-height: 44px;
-    border-radius: 50%;
+   border-radius: 50%;
     transition: 0.4s;
+    border:1px white solid;
+    cursor:pointer;
+    margin-left: 3px;
 }
-
-.links a:hover {
-    color: #4d4f55;
-    background-color: white;
+#link img{
+    height:20px;
+    width:20px;
 }
-
-ul img {
-    height: 70px;
-    background-color: #4d4f55;
-    color: white;
-    border-radius: 50%;
+#links:hover{
+    background-color: #e2e3ea;
+   
+    cursor: pointer;
 
 }
-.footer-logo {
-    height: 50px;
-    background-color: rgba(40, 130, 214, 0.8);
-    border-radius: 50%;
-}
-
 .footer-con-logo {
     height: 25px;
     border-radius: 20px;
 }
-.list{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-  }
-  .product {
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-}
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 
-.product h2 {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.product p {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-}
-.img-info{
-    margin-left: 580px;
-    width: 20%;
-}
-
-button:hover {
-    background-color: #555;
-}
-@media screen and  (min-width: 267px) and (max-width:299px) {
-    .container {
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-    }
-    .lsg-logo{
-        display: none;
-    }
-    .card{
-        margin-top: 50px;
-        height: fit-content;
-        width: fit-content;
-    }
+@media(max-width: 740px){
     .footer-col{
         width: 50%;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         text-align: center;
     }
-
     .footer-col h4::before{
         all: unset;
     }
-    .logo-info {
-        font-size:x-small;
-    }
-    .nav-logo {
-        width: 100px;
-        height: 80px;
-        display: flex;
-        font-size: small;
-        align-items: center;
-    }  
-    .captain{
-        margin-left:-180px;
-      }
-      .bat-1{
-        margin-right: -180px;
-      }
-    .bat{
-        margin-right: -180px;
-        padding-left: 160px;
-    }
 }
 
-/* Small Devices */
+@media(max-width: 555px){
+    .footer-col{
+        width: 100%;
+    }
+}
+.footer-info {
+    padding: 10px;
+}
+.links a{
+    display: none;
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 9px 9px 0;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.links a:hover{
+    color: #4d4f55;
+    background-color: white;
+}
+ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+    margin-right: 40px;
+}
+
+
+ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+ul li a:hover{
+    color: white;
+    padding-left: 3px;
+}
+  /* Small Devices */
   
-@media screen and (max-width:615px) {
+  @media screen and  (max-width: 600px) {
     .container {
         flex-direction: column;
         display: flex;
         align-items: center;
     }
-    .lsg-logo{
-        display: flex;
+    .rcb-logo{
+       margin-top: 20px;
+        height:30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .nav-item {
+        background-color: #6600cc;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 15px;
+        font-size: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    #content{
+        font-size: 15px;
+
     }
     .card{
         margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
+        display:block;
+      margin-left:10px;
+        align-items: center;
+        margin-left:36px;
     }
+    
+   
+    .footer-col{
+        padding-top: 20px ;
+        margin-right: 30px;
+        width: 26%;
+        text-decoration: none;
+    }
+    .footer-col h4{
+        position:static;
+        margin-bottom: 30px;
+        font-weight: 350;
+        font-size: 20px;
+        color: #f1bc0d;
+        text-transform: capitalize;
+        display: block;
+        margin-left:100px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    ul li:not(:last-child) {
+        margin-bottom: 8px;
+    }
+    
+    ul li a {
+        display: block;
+        font-size:15px;
+        text-transform: capitalize;
+        color: #bdb6b6;
+        text-decoration: none;
+        transition: 0.4s;
+        margin: 0%;
+        text-align: center;
+        margin:0 auto;
+    }
+    
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
+        margin-left:15px;
         text-align: center;
     }
 
     .footer-col h4::before{
         all: unset;
     }
-    .logo-info {
-        font-size:small;
+    #links {
+        display:inline-block;
+        height: 30px;
+        width: 30px;
+        background-color: white;
+        margin: 0 4px 4px 0;
+      align-content: center;
+       border-radius: 50%;
+        transition: 0.4s;
+        border:1px white solid;
+        cursor:pointer;
+        margin-left: 1px;
     }
+    #link img{
+        height:20px;
+        width:20px;
+       
+    }
+    #links:hover{
+        background-color: #e2e3ea;
+       
+        cursor: pointer;
+    
+    }
+    
+    h1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    }
+
     .nav-logo {
-        width: 100px;
-        height: 80px;
+        width: 50px;
+        height: 40px;
         display: flex;
         align-items: center;
+        margin-top: 15px;
     }  
     .captain{
         margin-left:-220px;
@@ -391,25 +406,62 @@ button:hover {
       .bat-1{
         margin-right: -200px;
       }
+      .allrounder-1{
+        margin-right: -200px;
+      }
+      .ball-1{
+        margin-right: -200px;
+      }
     .bat{
+        margin-right: -200px;
+        padding-left: 180px;
+    }
+    .allrounder{
+        margin-right: -200px;
+        padding-left: 180px; 
+    }
+    .ball{
         margin-right: -200px;
         padding-left: 180px;
     }
 }
           /* Normal Devices */
   
-  @media screen and (min-width: 616px) and (max-width: 768px) {
+  @media screen and (min-width: 601px) and (max-width: 768px) {
     .container {
         flex-direction: column;
         display: flex;
         align-items: center;
     }
+    h1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .nav-logo {
+       
+        height: 35px;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }  
+    .rcb-logo{
+       margin-top: 20px;
+margin-left: 3px;
+margin-right: 3px;
+
+        height:35px;
+    }
     .card{
         margin-top: 50px;
         margin-left: 5px;
-        height: 320px;
-        margin-left: auto;
-        margin-right: auto;
+        height: fit-content;
+        align-items: center;
+        margin-left:28px;
+        margin-right: 20px;
     }
     .nav-bar {
         height: 70px;
@@ -418,24 +470,75 @@ button:hover {
     .card {
         width: 180px;
         height: 100;
-        justify-content: space-between;
     }
 
     .logo-info {
-        font-size:small;
-    }    
+        font-size: 10px;
+    }   
     .captain{
         margin-left:-100px;
       }
       .bat-1{
         margin-right: -100px;
       }
+      .allrounder-1{
+        margin-right: -100px;
+      }
+      .ball-1{
+        margin-right: -100px;
+      }
     .bat{
         margin-right: -100px;
         padding-left: 100px;
     }
+    .allrounder{
+        margin-right: -100px;
+        padding-left: 100px;
+    }
+.ball{
+    margin-right: -100px;
+    padding-left: 100px; 
+}
+.footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+margin-left:60px;
 }
 
+.footer-col h4::before{
+    all: unset;
+
+}
+ul li a {
+    display: block;
+    font-size:16px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+    margin: 0%;
+    text-align: center;
+    margin:0 auto;
+}
+#links {
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin: 0 4px 4px 0;
+  align-items: center;
+   border-radius: 50%;
+    transition: 0.4s;
+    border:1px white solid;
+    cursor:pointer;
+    margin-left: 2px;
+}
+#link img{
+    height:25px;
+    width:25px;
+   
+}
+  }
 /*  Tablet Devices */
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -445,11 +548,9 @@ button:hover {
         justify-content: start;
     }
     .card{
-        width: 250px;
-        height: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 70px;
+        width: 200px;
+        margin-left: 40px;
+        margin-top: 150px;
     }
     .captain{
         margin-left:-200px;
@@ -457,7 +558,21 @@ button:hover {
       .bat-1{
         margin-right: -180px;
       }
+      .allrounder-1{
+        margin-right: -180px;
+      }
+      .ball{
+        margin-right: -180px;
+      }
     .bat{
+        margin-right: -170px;
+        padding-left: 150px;
+    }
+    .allrounder{
+        margin-right: -170px;
+        padding-left: 150px;
+    }
+    .ball{
         margin-right: -170px;
         padding-left: 150px;
     }
@@ -468,6 +583,7 @@ button:hover {
     .card-info {
         margin: 50px;
     }
+   
 }
 
 @media screen and (min-width:993px) and (max-width: 1200px) {
@@ -478,12 +594,8 @@ button:hover {
     }
     .card{
         width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 70px;
-    }
-    .logo-info {
-        font-size: large;
+        margin-left: 80px;
+        margin-top: 200px;
     }
 }
 
@@ -495,9 +607,6 @@ button:hover {
         flex-direction: row;
         justify-content: start;
         flex-wrap: wrap;
-    }
-    .logo-info {
-        font-size: large;
     }
 
 }
