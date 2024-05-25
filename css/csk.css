@@ -222,6 +222,16 @@ ul img {
     border-radius: 50%;
 
 }
+.footer-logo {
+    height: 50px;
+    background-color: rgba(40, 130, 214, 0.8);
+    border-radius: 50%;
+}
+
+.footer-con-logo {
+    height: 25px;
+    border-radius: 20px;
+}
 .list{
     text-align: center;
     display: flex;

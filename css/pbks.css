@@ -92,9 +92,6 @@ table, td, th {
     margin-bottom: auto;
 }    
 
-.nav-item:hover {
-    background-color: #b300b3;
-}
 .lsg-logo{ 
   text-align:start;
   padding-top: 3px;
@@ -125,7 +122,7 @@ table, td, th {
     border: 1px solid black;
     border-radius: 1%;
     height:300px;
-    background-color: #ffcccc;
+    background-color:  #ffe6e6;
     width: 250px;
     margin-top: 20px;
     padding: 20px;
@@ -165,87 +162,6 @@ table, td, th {
     margin-top: 10px;
     margin-bottom: auto;
 }
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: auto;
-    background-color: #2d2e33;
-    padding: 40px 10%;
-
-}
-
-ul {
-    list-style: none;
-}
-
-.footer-col {
-    padding-top: 10px;
-    margin-right: 5px;
-    width: 24%;
-}
-
-.footer-col h4 {
-    position: static;
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 22px;
-    color: #f1bc0d;
-    text-transform: capitalize;
-}
-
-ul li:not(:last-child) {
-    margin-bottom: 8px;
-}
-
-ul li a {
-    display: block;
-    font-size: 19px;
-    text-transform: capitalize;
-    color: #bdb6b6;
-    text-decoration: none;
-    transition: 0.4s;
-}
-
-ul li a:hover {
-    color: white;
-    padding-left: 2px;
-}
-
-.links a {
-    display: inline-block;
-    height: 44px;
-    width: 44px;
-    color: white;
-    background-color: rgba(40, 130, 214, 0.8);
-    margin: 0 8px 8px 0;
-    text-align: center;
-    line-height: 44px;
-    border-radius: 50%;
-    transition: 0.4s;
-}
-
-.links a:hover {
-    color: #4d4f55;
-    background-color: white;
-}
-
-ul img {
-    height: 70px;
-    background-color: #4d4f55;
-    color: white;
-    border-radius: 50%;
-
-}
-.footer-logo {
-    height: 50px;
-    background-color: rgba(40, 130, 214, 0.8);
-    border-radius: 50%;
-}
-
-.footer-con-logo {
-    height: 25px;
-    border-radius: 20px;
-}
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
     .text {
@@ -258,13 +174,12 @@ footer {
     margin-top: auto;
     background-color: #2d2e33;
     padding: 40px 5%;
-
+   
 }
 .footer-col {
     padding-top: 10px;
     margin-right: 30px;
     width: 50%;
-
 
 }
 
@@ -274,7 +189,7 @@ ul {
 
 .footer-col {
     padding-top: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     width: 24%;
 }
 
@@ -570,7 +485,7 @@ button:hover {
 
 /* Dekstop device */
 
-@media screen and  (max-width: 1200px) {
+@media screen and  (min-width: 1200px) and (max-width:1500px) {
     .container {
         display: flex;
         flex-direction: row;
@@ -589,6 +504,6 @@ button:hover {
         margin-top: auto;
         background-color: #2d2e33;
         padding: 40px 10%;
-    
+        width: 100%;
     }
 }
