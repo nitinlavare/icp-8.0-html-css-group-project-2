@@ -1,7 +1,7 @@
 # Hi! I'm happy to see you here!<img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> 
 
 ## ICP-8.0-HTML-CSS-GROUP-PROJECT-2
-### INDIAN PREMIER LEAGUE(IPL)
+### INDIAN PREMIER LEAGUE(IPL)  
 <strong>About Project :</strong>
 - 🔭 This project involves creating a website dedicated to the Indian Premier League (IPL) using HTML and CSS.
 - 🔭 It is a group project where each contributor has developed their own web pages.
