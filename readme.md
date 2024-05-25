@@ -1,17 +1,23 @@
 # Hi! I'm happy to see you here!<img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> 
 
 ## ICP-8.0-HTML-CSS-GROUP-PROJECT-2
+### INDIAN PREMIER LEAGUE(IPL)  
+<strong>About Project :</strong>
+- 🔭 This project involves creating a website dedicated to the Indian Premier League (IPL) using HTML and CSS.
+- 🔭 It is a group project where each contributor has developed their own web pages.
+- 🔭 The web pages provide detailed information about various IPL teams, including:
+1. Chennai Super Kings (CSK)
+2. Mumbai Indians (MI)
+3. Royal Challengers Bangalore (RCB)
+4. Lucknow Super Giants (LSG)
+5. Rajasthan Royals (RR)
+6. Punjab Kings (PBKS)
+7. Gujarat Titans(GT)
+8. Sunrisers Hyderabad(SRH)
 
-### About Me :
-       
-- 🔭 I’m a Quick learner with a proactive attitude towards acquiring new skills and technologies.  I’m a computer science student who loves coding and tech. Always learning and creating.
-- 🔭 I’m a Quick learner with a proactive attitude towards acquiring new skills and technologies.
-
-### About Project :
-- 🔭 this project is based on  IPL website which is made by using HTML and CSS .
-- 🔭This project is a group project in which all the contributors have create their own pages and
- giving more information about IPL team such as CSK,MI,RCB,LSG,RR,PBKS and more.
-- 🔭Home page is created by me. 
+- 🔭 I have created the home page for this website.
+- 🔭 On the home page, all the team details are presented as individual cards.
+- 🔭 Each card can be clicked to access more detailed information about the respective team.
 ## Website
 
 Link :https://iplmiracle611.netlify.app
