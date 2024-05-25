@@ -410,15 +410,12 @@ button:hover {
     }
     .card{
         width: 250px;
-<<<<<<< HEAD
         margin-left: 40px;
         margin-top: 150px;
-=======
         height: 350px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 70px;
->>>>>>> 6fe7b7caf1e335ceed7dc6a4f6f61410d96368c3
     }
     .captain{
         margin-left:-200px;

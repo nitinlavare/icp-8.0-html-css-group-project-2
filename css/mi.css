@@ -350,6 +350,12 @@ button:hover {
         margin-right: -180px;
         padding-left: 160px;
     }
+
+    .footer-logo{
+        display: flex;
+        justify-content: start;
+        height: 50px;
+    }
 }
 
 
