@@ -377,6 +377,9 @@ button:hover {
         all: unset;
     }
     .logo-info {
+
+        font-size:5px;
+        display: flex;
         font-size:small;
     }
     .nav-logo {
@@ -422,6 +425,8 @@ button:hover {
     }
 
     .logo-info {
+
+        font-size:10px;
         font-size:small;
     }    
     .captain{
@@ -446,6 +451,8 @@ button:hover {
     }
     .card{
         width: 250px;
+        margin-left: 40px;
+        margin-top: 150px;
         height: 350px;
         margin-left: auto;
         margin-right: auto;
