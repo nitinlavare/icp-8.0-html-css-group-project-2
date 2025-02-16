@@ -3,15 +3,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.blank {
-    background-color: #4c0080;
-    height: 30px;
-    width: 100%;
-    display: flex;
-    position: sticky;
-    top: 0;
-}
-
 .nav-bar {
     background-color: #004080;
     background-image: url('./../images/homepageimages/hbg.webp');
@@ -23,7 +14,6 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    position: sticky;
 }
 
 .logo-info {
@@ -155,7 +145,7 @@ footer {
     flex-wrap: wrap;
     margin-top: auto;
     background-color: #2d2e33;
-    padding: 40px 10%;
+    padding: 40px 5%;
 
 }
 
@@ -165,7 +155,7 @@ ul {
 
 .footer-col {
     padding-top: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     width: 24%;
 }
 
@@ -222,18 +212,27 @@ ul img {
 
 }
 
+.footer-logo {
+    height: 50px;
+    background-color: rgba(40, 130, 214, 0.8);
+    border-radius: 50%;
+}
+
+.footer-con-logo {
+    height: 25px;
+    border-radius: 20px;
+}
 
 /* Mobile Devices */
 @media screen and(min-width:455px)and(max-width:648) {
+   
     .vd {
 
         height: 350vh;
     }
 
     .vid {
-
-        height: 150vh;
-
+        height: 500vh;
     }
 }
 
@@ -370,6 +369,7 @@ ul img {
     .vid {
         height: 180vh;
     }
+
 }
 
 /* Dekstop device */
