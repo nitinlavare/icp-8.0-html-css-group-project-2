@@ -85,7 +85,7 @@ body {
     box-shadow: 0 4px 8px 0 grey;
     transition: 0.3s;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid rgb(202, 30, 30);
     border-radius: 1%;
     height:300px;
     width: 250px;
@@ -163,6 +163,89 @@ ul {
     color: #4d4f55;
     background-color: white;
 }
+
+.container1 {
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .table-content1{
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+    align-items: center;
+    background-color: #8cb3d9;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+   th {
+    padding: 15px;
+  }
+.table-content{
+font-size: larger;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+margin-bottom: auto;
+}
+
+.list{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.product{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.product h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.product p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+ button {
+     background-color: #333;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    
+ }
+ .img-info{
+    margin-left: 580px;
+    width: 20%;
+ }
+ button:hover {
+    background-color: #555;
+ }
+
+
 @media(max-width: 740px){
     .footer-col{
         width: 50%;
@@ -398,6 +481,19 @@ ul img {
 }
 
 /* Dekstop device */
+
+@media screen and  (max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .logo-info {
+        font-size: large;
+    }
+
+}
 
 
 
